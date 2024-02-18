@@ -16,6 +16,7 @@ def shop_index(request: HttpRequest):
     context = {
         'time_running': default_timer(),
         'products': products,
+        'links': ["groups/", "products/", "orders/"],
     }
 
     return render(request, 'shopapp/shop-index.html', context=context)
