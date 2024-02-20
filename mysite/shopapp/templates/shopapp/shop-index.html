@@ -25,10 +25,10 @@ Shop Index
 <div>
     <h3>List of link for shopapp:</h3>
     <ul>
-    {% for link in links %}
-    <li>{{ link }}</li>
-    {% endfor %}
-     </ul>
+        <h3><a href="{% url 'shopapp:products_list' %}">Products</a></h3>
+        <h3><a href="{% url 'shopapp:orders_list' %}">Orders</a></h3>
+
+    </ul>
 
 </div>
 
