@@ -20,7 +20,9 @@ Product list
 <h3>No products yet</h3>
 {% endif %}
 <div>
+    {% if perms.shopapp.add_product %}
     <a href="{% url 'shopapp:product_create' %}">
         Create a new product</a>
+    {% endif %}
 </div>
 {% endblock %}
