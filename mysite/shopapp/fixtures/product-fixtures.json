@@ -1,0 +1,80 @@
+[
+  {
+    "model": "shopapp.product",
+    "pk": 1,
+    "fields": {
+      "name": "Laptop",
+      "description": "Natus omnis illo velit qui",
+      "price": "1999.00",
+      "discount": 0,
+      "created_at": "2024-02-17T07:51:11.392Z",
+      "archived": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 2,
+    "fields": {
+      "name": "Desktop",
+      "description": "some description",
+      "price": "2599.00",
+      "discount": 10,
+      "created_at": "2024-02-17T07:51:11.392Z",
+      "archived": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 3,
+    "fields": {
+      "name": "Smartphone",
+      "description": "Natus omnis illo velit qui accusamus minima quia beatae, non autem commodi corporis quam provident ipsum corrupti nobis illo vero, fuga veritatis voluptas eligendi, explicabo aperiam aliquam tenetur voluptates harum sit distinctio, consequuntur eum dolorem? Atque consequuntur hic totam nihil cumque distinctio provident eligendi blanditiis officiis, excepturi deleniti porro earum reprehenderit quis, in minima accusantium ullam illo modi voluptatibus, sunt ea hic ipsam beatae consequatur earum quam culpa?",
+      "price": "987.00",
+      "discount": 25,
+      "created_at": "2024-02-17T07:51:11.392Z",
+      "archived": true,
+      "created_by": null
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 4,
+    "fields": {
+      "name": "Computer mouse",
+      "description": "Computer mouse",
+      "price": "5.00",
+      "discount": 0,
+      "created_at": "2024-03-20T13:36:23.275Z",
+      "archived": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 5,
+    "fields": {
+      "name": "phone 2",
+      "description": "new phone",
+      "price": "150.00",
+      "discount": 12,
+      "created_at": "2024-03-20T14:52:19.571Z",
+      "archived": true,
+      "created_by": null
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 8,
+    "fields": {
+      "name": "test phone",
+      "description": "test for permission",
+      "price": "15.00",
+      "discount": 10,
+      "created_at": "2024-05-02T11:30:25.157Z",
+      "archived": false,
+      "created_by": null
+    }
+  }
+]
