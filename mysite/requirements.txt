@@ -1,3 +1,8 @@
-asgiref==3.5.2
+asgiref==3.7.2
 Django==5.0.3
+future==0.18.3
+pefile==2021.9.3
+pewee==0.1.0.dev9
+pillow==10.3.0
 sqlparse==0.4.2
+typing_extensions==4.9.0

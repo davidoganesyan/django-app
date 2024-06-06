@@ -13,6 +13,13 @@ About me
 <p>Last name: {{ user.last_name }}</p>
 <p>Email: {{ user.email }}</p>
 <p>Bio: {{ user.profile.bio }}</p>
+{% if user.profile.avatar_image %}
+<img src="{{ user.profile.avatar_image.url }}" alt="user.profile.avatar_image.name "><br>
+{% else %}
+<p>No avatar yet</p>
+{% endif%}
+<a href="{% url 'myauth:profile-update' pk=user.pk %}">Update profile</a><br>
+<a href="{% url 'myauth:users-list' %}">Users list</a>
 {% else %}
 <h2>User is anonymous</h2>
 {% endif %}
