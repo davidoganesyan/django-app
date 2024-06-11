@@ -1,13 +1,16 @@
 from django.contrib.auth.decorators import login_required, permission_required, user_passes_test
 from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.mixins import UserPassesTestMixin
+from django.contrib.auth.models import User
 from django.contrib.auth.views import LogoutView
 from django.http import HttpRequest, HttpResponse, JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.urls import reverse, reverse_lazy
 from django.views import View
-from django.views.generic import TemplateView, CreateView
+from django.views.generic import TemplateView, CreateView, UpdateView, ListView, DetailView
 
+from .forms import ProfileUpdateForm
 from .models import Profile
 
 
@@ -86,3 +89,29 @@ def get_session_view(request: HttpRequest) -> HttpResponse:
 class FooBarView(View):
     def get(self, request: HttpRequest) -> JsonResponse:
         return JsonResponse({"foo": "bar", "spam": "eggs"})
+
+
+class ProfileUpdateView(UserPassesTestMixin, UpdateView):
+
+    def test_func(self):
+        if self.request.user.id == self.get_object().user.profile.id or self.request.user.is_staff:
+            return True
+
+    model = Profile
+    template_name = "myauth/profile-update.html"
+    form_class = ProfileUpdateForm
+
+    def get_success_url(self):
+        return reverse("myauth:users-list")
+
+
+class UsersListView(ListView):
+    template_name = "myauth/users-list.html"
+    context_object_name = "users_list"
+    queryset = User.objects.all()
+
+
+class UserDetailsView(DetailView):
+    template_name = 'myauth/user-details.html'
+    queryset = User.objects.select_related("profile")
+    context_object_name = "user"
