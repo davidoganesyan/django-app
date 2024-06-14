@@ -12,7 +12,9 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 
+import django.middleware.locale
 from django.urls import reverse_lazy
+from django.utils.translation import gettext_lazy as _
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -54,6 +56,7 @@ MIDDLEWARE = [
     # 'requestdataapp.middlewares.setup_useragent_in_request_middleware',
     'requestdataapp.middlewares.CountRequestsMiddleware',
     # 'requestdataapp.middlewares.FrequencyRequestsMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
 ]
 
 ROOT_URLCONF = 'mysite.urls'
@@ -114,6 +117,17 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
+USE_L10N = True
+
+LOCALE_PATHS = [
+    BASE_DIR / 'locale/'
+]
+
+LANGUAGES = [
+    ('en', _('English')),
+    ('ru', _('Russian')),
+]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
