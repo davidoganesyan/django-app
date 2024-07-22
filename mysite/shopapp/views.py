@@ -5,7 +5,7 @@
 """
 
 from timeit import default_timer
-
+import logging
 from django.urls import reverse_lazy
 from django.views import View
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
@@ -23,6 +23,8 @@ from rest_framework.filters import SearchFilter, OrderingFilter
 from django_filters.rest_framework import DjangoFilterBackend
 from .serializers import ProductSerializer, OrderSerializer
 from drf_spectacular.utils import extend_schema, OpenApiResponse
+
+log = logging.getLogger(__name__)
 
 
 @extend_schema(description="Product views CRUD")
@@ -88,6 +90,8 @@ class ShopIndexView(View):
             'links': ["groups/", "products/", "orders/"],
             'items': 1,
         }
+        log.debug("Products for shop index: %s", products)
+        log.info("Rendering shop index")
 
         return render(request, 'shopapp/shop-index.html', context=context)
 
@@ -213,7 +217,9 @@ class ProductsDataExportView(View):
             }
             for product in products
         ]
-
+        elem = products_data[0]
+        name = elem["name"]
+        print("name:", name)
         return JsonResponse({"products": products_data})
 
 
