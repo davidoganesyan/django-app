@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object model="shopapp.product" pk="1">
+        <field name="name" type="CharField">phone</field>
+        <field name="description" type="TextField">test phone</field>
+        <field name="price" type="DecimalField">100.00</field>
+        <field name="discount" type="PositiveSmallIntegerField">10</field>
+        <field name="created_at" type="DateTimeField">2024-07-18T09:14:21.294458+00:00</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="preview" type="FileField">products/product_1/preview/phone.png</field>
+    </object>
+    <object model="shopapp.product" pk="2">
+        <field name="name" type="CharField">decktop</field>
+        <field name="description" type="TextField">test decktop</field>
+        <field name="price" type="DecimalField">350.00</field>
+        <field name="discount" type="PositiveSmallIntegerField">10</field>
+        <field name="created_at" type="DateTimeField">2024-07-18T09:14:39.772582+00:00</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="preview" type="FileField">products/product_2/preview/decktop.jpeg</field>
+    </object>
+    <object model="shopapp.product" pk="3">
+        <field name="name" type="CharField">laptop</field>
+        <field name="description" type="TextField">test laptop</field>
+        <field name="price" type="DecimalField">300.00</field>
+        <field name="discount" type="PositiveSmallIntegerField">9</field>
+        <field name="created_at" type="DateTimeField">2024-07-18T09:16:02.444069+00:00</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="preview" type="FileField">products/product_3/preview/laptop.png</field>
+    </object>
+    <object model="shopapp.product" pk="4">
+        <field name="name" type="CharField">phone 2</field>
+        <field name="description" type="TextField">test phone 2</field>
+        <field name="price" type="DecimalField">150.00</field>
+        <field name="discount" type="PositiveSmallIntegerField">3</field>
+        <field name="created_at" type="DateTimeField">2024-07-18T09:20:30.853366+00:00</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">2</field>
+        <field name="preview" type="FileField">products/product_4/preview/phone2.jpeg</field>
+    </object>
+</django-objects>

@@ -12,18 +12,9 @@ Articles
     <div>
         <p>Title: {{ article.title }}</p>
         <p>Pub_date: {{ article.pub_date }}</p>
-        <p>Author: {{ article.author.name }}</p>
-        <p>Category: {{ article.category.name }}</p>
-
-        <div>
-            Tags in order:
-            <ul>
-                {% for tag in article.tags.all %}
-                <li>{{ tag.name }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-
+        <p>
+            <a href="{% url 'blogapp:article' pk=article.pk %}">Article details</a>
+        </p>
     </div>
     {% endfor %}
 </div>

@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
 from django.db import models
+from django.urls import reverse
 from django.utils.translation import gettext_lazy as _, ngettext
 
 
@@ -29,6 +30,9 @@ class Product(models.Model):
     archived = models.BooleanField(default=False)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, null=True)
     preview = models.ImageField(null=True, blank=True, upload_to=product_preview_directory_path)
+
+    def get_absolute_url(self):
+        return reverse("shopapp:product_details", kwargs={"pk": self.pk})
 
     # @property
     # def description_short(self) -> str:
