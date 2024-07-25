@@ -20,6 +20,8 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls.i18n import i18n_patterns
 from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView, SpectacularSwaggerView
+from django.contrib.sitemaps.views import sitemap
+from .sitemaps import sitemaps
 
 urlpatterns = [
     path('req/', include('requestdataapp.urls')),
@@ -36,6 +38,7 @@ urlpatterns += i18n_patterns(
     path('api/schema/redoc/', SpectacularRedocView.as_view(url_name='schema'), name="redoc"),
     path('api/', include('myapiapp.urls')),
     path('blog/', include('blogapp.urls')),
+    path("sitemap.xml", sitemap, {"sitemaps": sitemaps}, name="django.contrib.sitemaps.views"),
 )
 
 if settings.DEBUG:
