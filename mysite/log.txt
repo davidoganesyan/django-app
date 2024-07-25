@@ -1770,3 +1770,1892 @@ TypeError: shopapp.models.Order() argument after ** must be a mapping, not str
 2024-07-23 13:15:16,573 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
 2024-07-23 13:18:12,891 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/common.py changed, reloading.
 2024-07-23 13:18:13,376 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 08:58:10,658 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 08:58:14,108 [WARNING] django.request: Not Found: /
+2024-07-25 08:58:19,079 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:25:20,107 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+2024-07-25 09:25:20,704 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:26:23,396 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:26:23,968 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:26:28,473 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:26:28,997 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:26:33,335 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:26:33,940 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:26:56,881 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:26:57,213 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:27:01,608 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:27:02,033 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:27:09,396 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:27:09,726 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:27:35,327 [WARNING] django.request: Not Found: /en/myauth/get/
+2024-07-25 09:27:51,749 [WARNING] django.request: Not Found: /en/myauth/cookie/get/
+2024-07-25 09:28:38,602 [WARNING] django.request: Not Found: /myauth/cookie/get/
+2024-07-25 09:29:35,008 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:29:35,707 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:29:46,180 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:29:46,543 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:29:51,956 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:29:52,376 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:29:57,087 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:29:57,748 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:30:09,222 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:30:09,626 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:30:29,552 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:30:30,135 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:30:44,739 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/myauth/views.py changed, reloading.
+2024-07-25 09:30:45,208 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:32:08,310 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/urls.py changed, reloading.
+2024-07-25 09:32:08,811 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:32:15,297 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/urls.py changed, reloading.
+2024-07-25 09:32:15,788 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:32:43,665 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/urls.py changed, reloading.
+2024-07-25 09:32:44,048 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:33:25,113 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/urls.py changed, reloading.
+2024-07-25 09:33:25,461 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:33:38,006 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/urls.py changed, reloading.
+2024-07-25 09:33:38,363 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:34:16,134 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:37:18,500 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:37:18,957 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:37:21,334 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:37:21,743 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:37:29,353 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:37:29,788 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:37:35,286 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:37:35,844 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:37:41,490 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:37:41,906 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:37:45,389 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:37:45,745 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:37:50,146 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:37:50,545 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:37:57,955 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:37:58,399 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:38:15,284 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:38:15,803 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:38:25,493 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:38:26,114 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:38:55,184 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:38:55,551 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:39:02,170 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:39:02,610 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:39:07,116 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:39:07,529 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:39:23,137 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:39:23,513 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:39:43,207 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:39:43,971 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:39:53,696 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:39:54,563 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:39:59,958 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:40:00,349 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:40:08,932 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:40:09,288 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:40:26,935 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:40:27,501 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:40:47,445 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:40:48,275 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:40:55,707 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:40:56,088 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:40:59,468 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:41:00,416 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:42:24,601 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:42:25,293 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:43:32,053 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/urls.py changed, reloading.
+2024-07-25 09:43:32,413 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:43:37,650 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:48:35,676 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 09:48:36,215 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 09:50:28,644 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:50:30,221 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:26,239 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:27,244 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:27,876 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:28,410 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:28,878 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:29,224 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:29,478 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:29,733 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:29,945 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:30,162 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:30,411 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:30,657 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:30,916 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:31,146 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:31,451 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:32,115 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:32,790 [INFO] shopapp.views: Rendering shop index
+2024-07-25 09:52:33,345 [INFO] shopapp.views: Rendering shop index
+2024-07-25 10:48:13,606 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:48:14,129 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:48:22,574 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:48:23,029 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:48:31,470 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:48:32,016 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:48:42,672 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:48:43,043 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:49:29,458 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:49:29,940 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:49:36,446 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:49:36,863 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:49:43,280 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:49:43,849 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:49:55,798 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:49:56,296 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:50:08,031 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:50:08,381 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:50:40,239 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:50:40,639 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:50:48,104 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:50:48,771 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:51:08,625 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:51:09,165 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:51:37,160 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:51:37,531 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:51:49,127 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:51:49,793 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:52:02,384 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:52:02,997 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:52:50,355 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:52:50,705 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:53:03,312 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 10:53:03,852 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:53:43,690 [INFO] shopapp.views: Rendering shop index
+2024-07-25 10:59:38,336 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+2024-07-25 10:59:38,815 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:59:49,294 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+2024-07-25 10:59:49,661 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 10:59:59,169 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+2024-07-25 10:59:59,589 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 11:00:11,029 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+2024-07-25 11:00:11,370 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 11:00:15,723 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+2024-07-25 11:00:16,073 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 11:00:19,424 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+2024-07-25 11:00:19,768 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 11:00:22,127 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+2024-07-25 11:00:22,578 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 11:00:24,939 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+2024-07-25 11:00:25,335 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 11:00:36,815 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+2024-07-25 11:00:37,401 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 11:16:38,736 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 11:16:39,259 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 11:17:00,971 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 11:17:01,317 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 11:25:52,082 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 11:25:52,550 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 12:59:10,024 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 12:59:17,324 [INFO] shopapp.views: Rendering shop index
+2024-07-25 12:59:34,231 [WARNING] django.request: Not Found: /favicon.ico
+2024-07-25 13:00:23,423 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:00:23,881 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:00:42,908 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:00:43,365 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:01:13,408 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:01:13,845 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:01:29,686 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:01:30,063 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:02:51,393 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:02:51,754 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:03:24,110 [WARNING] django.request: Not Found: /en/shop/users/3/orders
+2024-07-25 13:06:14,622 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:06:15,107 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:08:26,527 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:08:26,956 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:09:15,540 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:09:15,905 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:09:21,918 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 90, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/python_django/mysite/shopapp/views.py", line 253, in get_queryset
+    orders = Order.objects.filtter(user=owner).prefetch_related('products')
+             ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Manager' object has no attribute 'filtter'
+2024-07-25 13:09:51,061 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:09:51,640 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:09:54,383 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp:users_order_list.html
+2024-07-25 13:10:23,833 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:10:24,271 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:10:27,119 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp:user_order_list.html
+2024-07-25 13:10:36,475 [ERROR] django.request: Internal Server Error: /en/shop/users/1/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp:user_order_list.html
+2024-07-25 13:10:51,265 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:10:51,702 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:10:54,077 [ERROR] django.request: Internal Server Error: /en/shop/users/1/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp:users_order_list.html
+2024-07-25 13:11:26,059 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:11:26,482 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:11:28,793 [ERROR] django.request: Internal Server Error: /en/shop/users/1/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp:users_order_list.html
+2024-07-25 13:11:52,519 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:11:52,945 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:11:56,957 [ERROR] django.request: Internal Server Error: /en/shop/users/1/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp:users_order_list.html
+2024-07-25 13:12:05,110 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:12:09,661 [ERROR] django.request: Internal Server Error: /en/shop/users/1/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp:users_order_list.html
+2024-07-25 13:12:45,839 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:12:46,291 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:12:49,606 [ERROR] django.request: Internal Server Error: /en/shop/users/1/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'order_details' with keyword arguments '{'pk': ''}' not found. 1 pattern(s) tried: ['en/shop/orders/(?P<pk>[0-9]+)\\Z']
+2024-07-25 13:13:47,011 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:13:47,484 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:14:37,073 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 27: 'else', expected 'endblock'. Did you forget to register or load this tag?
+2024-07-25 13:15:44,558 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'body' appears more than once
+2024-07-25 13:18:58,752 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'order.User'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'order.User', expected 'endblock'. Did you forget to register or load this tag?
+2024-07-25 13:19:12,949 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'order.user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'order.user', expected 'endblock'. Did you forget to register or load this tag?
+2024-07-25 13:19:28,935 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'order'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'order', expected 'endblock'. Did you forget to register or load this tag?
+2024-07-25 13:20:10,689 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 481, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[user]' from 'order[user]'
+2024-07-25 13:20:16,896 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 481, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[User]' from 'order[User]'
+2024-07-25 13:20:24,565 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 481, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '["User"]' from 'order["User"]'
+2024-07-25 13:20:41,150 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 481, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '['User']' from 'order['User']'
+2024-07-25 13:20:47,022 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 481, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '['user']' from 'order['user']'
+2024-07-25 13:21:33,846 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 481, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''' from 'order.User''
+2024-07-25 13:23:58,107 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:23:58,603 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:26:57,581 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'order.delivery_address'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'order.delivery_address', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2024-07-25 13:27:16,217 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'order.delivery_address'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'order.delivery_address', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2024-07-25 13:27:32,599 [ERROR] django.request: Internal Server Error: /en/shop/users/2/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'order.delivery_address'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'order.delivery_address', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2024-07-25 13:35:06,604 [ERROR] django.request: Internal Server Error: /en/shop/users/1/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/templatetags/cache.py", line 88, in do_cache
+    raise TemplateSyntaxError("'%r' tag requires at least 2 arguments." % tokens[0])
+django.template.exceptions.TemplateSyntaxError: ''cache'' tag requires at least 2 arguments.
+2024-07-25 13:35:22,846 [ERROR] django.request: Internal Server Error: /en/shop/users/1/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/templatetags/cache.py", line 88, in do_cache
+    raise TemplateSyntaxError("'%r' tag requires at least 2 arguments." % tokens[0])
+django.template.exceptions.TemplateSyntaxError: ''cache'' tag requires at least 2 arguments.
+2024-07-25 13:36:44,020 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/views.py changed, reloading.
+2024-07-25 13:36:44,514 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-25 13:41:08,357 [ERROR] django.request: Internal Server Error: /en/shop/users/1/orders
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'owner'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/views.py", line 41, in sentry_patched_render
+    return old_render(self)
+           ^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/templates.py", line 77, in rendered_content
+    return real_rendered_content.fget(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'owner', expected 'endblock'. Did you forget to register or load this tag?
+2024-07-25 13:49:10,742 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+2024-07-25 13:49:11,169 [INFO] django.utils.autoreload: Watching for file changes with StatReloader

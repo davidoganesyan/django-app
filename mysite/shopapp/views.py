@@ -10,14 +10,15 @@ import logging
 from django.contrib.syndication.views import Feed
 from django.urls import reverse_lazy
 from django.views import View
+from django.views.decorators.cache import cache_page
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 
 from .models import Product, Order, ProductImage
 from .common import save_csv_products
 
-from django.contrib.auth.models import Group
+from django.contrib.auth.models import Group, User
 from django.http import HttpRequest, HttpResponse, HttpResponseRedirect, JsonResponse
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from .forms import ProductForm, GroupForm
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin, UserPassesTestMixin
 
@@ -30,6 +31,8 @@ from rest_framework.filters import SearchFilter, OrderingFilter
 from django_filters.rest_framework import DjangoFilterBackend
 from .serializers import ProductSerializer, OrderSerializer
 from drf_spectacular.utils import extend_schema, OpenApiResponse
+from django.utils.decorators import method_decorator
+from django.core.cache import cache
 
 log = logging.getLogger(__name__)
 
@@ -65,6 +68,11 @@ class ProductViewSet(ModelViewSet):
     )
     def retrieve(self, *args, **kwargs):
         return super().retrieve(*args, **kwargs)
+
+    @method_decorator(cache_page(60 * 2))
+    def list(self, *args, **kwargs):
+        # print("hello products list")
+        return super().list(*args, **kwargs)
 
     @action(methods=["get"], detail=False)
     def download_csv(self, request: Request):
@@ -133,6 +141,7 @@ class OrderViewSet(ModelViewSet):
 
 
 class ShopIndexView(View):
+    # @method_decorator(cache_page(60 * 2))
     def get(self, request: HttpRequest) -> HttpResponse:
         products = [
             ('smartphone', 999),
@@ -149,6 +158,7 @@ class ShopIndexView(View):
         log.debug("Products for shop index: %s", products)
         log.info("Rendering shop index")
 
+        print("shop index context", context)
         return render(request, 'shopapp/shop-index.html', context=context)
 
 
@@ -234,6 +244,21 @@ class OrderListView(LoginRequiredMixin, ListView):
     )
 
 
+class UserOrdersListView(LoginRequiredMixin, ListView):
+    template_name = "shopapp/users_order_list.html"
+    context_object_name = "orders"
+
+    def get_queryset(self, **kwargs):
+        owner = get_object_or_404(User, pk=self.kwargs["user_id"])
+        orders = Order.objects.select_related("user").filter(user=owner).prefetch_related('products')
+        contex = {"USER": owner, "orders": orders, }
+        return contex
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        return context
+
+
 class OrderCreateView(CreateView):
     model = Order
     fields = "delivery_address", "promocode", "user", "products"
@@ -263,19 +288,21 @@ class OrderDeleteView(DeleteView):
 
 class ProductsDataExportView(View):
     def get(self, request: HttpRequest) -> JsonResponse:
-        products = Product.objects.order_by("pk").all()
-        products_data = [
-            {
-                "pk": product.pk,
-                "name": product.name,
-                "price": product.price,
-                "archived": product.archived,
-            }
-            for product in products
-        ]
-        elem = products_data[0]
-        name = elem["name"]
-        print("name:", name)
+        cache_key = "products_data_export"
+        products_data = cache.get(cache_key)
+        if products_data is None:
+            products = Product.objects.order_by("pk").all()
+            products_data = [
+                {
+                    "pk": product.pk,
+                    "name": product.name,
+                    "price": product.price,
+                    "archived": product.archived,
+                }
+                for product in products
+            ]
+            cache.set(cache_key, products_data, 300)
+
         return JsonResponse({"products": products_data})
 
 
