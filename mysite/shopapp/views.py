@@ -250,13 +250,10 @@ class UserOrdersListView(LoginRequiredMixin, ListView):
 
     def get_queryset(self, **kwargs):
         owner = get_object_or_404(User, pk=self.kwargs["user_id"])
+        print(owner)
         orders = Order.objects.select_related("user").filter(user=owner).prefetch_related('products')
         contex = {"USER": owner, "orders": orders, }
         return contex
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        return context
 
 
 class OrderCreateView(CreateView):
@@ -306,23 +303,42 @@ class ProductsDataExportView(View):
         return JsonResponse({"products": products_data})
 
 
-class OrderExportView(UserPassesTestMixin, View):
-    def test_func(self):
-        if self.request.user.is_staff:
-            return True
+# class OrderExportView(UserPassesTestMixin, View):
+#     def test_func(self):
+#         if self.request.user.is_staff:
+#             return True
+#
+#     def get(self, request: HttpRequest) -> JsonResponse:
+#         orders = Order.objects.order_by("pk").all()
+#         order_data = [
+#             {
+#                 "pk": order.pk,
+#                 "delivery_address": order.delivery_address,
+#                 "promocode": order.promocode,
+#                 "user": order.user.id,
+#                 "product": [
+#                     [product.id, product.name]
+#                     for product in order.products.all()],
+#             }
+#             for order in orders
+#         ]
+#         return JsonResponse({"orders": order_data})
 
-    def get(self, request: HttpRequest) -> JsonResponse:
-        orders = Order.objects.order_by("pk").all()
-        order_data = [
-            {
-                "pk": order.pk,
-                "delivery_address": order.delivery_address,
-                "promocode": order.promocode,
-                "user": order.user.id,
-                "product": [
-                    [product.id, product.name]
-                    for product in order.products.all()],
-            }
-            for order in orders
-        ]
-        return JsonResponse({"orders": order_data})
+class UserOrdersListExportView(View):
+    def get(self, request: HttpRequest, user_id: int) -> JsonResponse:
+        cache_key = f"orders_data_export_for_user_{user_id}"
+
+        orders_data = cache.get(cache_key)
+        if orders_data is None:
+            owner: User = get_object_or_404(User, pk=user_id)
+            orders = (
+                Order.objects
+                .select_related("user")
+                .prefetch_related("products")
+                .order_by('pk')
+                .filter(user=owner)
+                .all()
+            )
+            orders_data = OrderSerializer(orders, many=True).data
+            cache.set(cache_key, orders_data, timeout=120)
+        return JsonResponse({"products": orders_data})

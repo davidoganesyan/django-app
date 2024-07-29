@@ -9,7 +9,7 @@ Orders list
 <h2>Orders by: {{ orders.USER }} </h2>
 {% if orders %}
 
-{% cache 100 ??? %}
+{% cache 100 users_orders orders.USER.username %}
 <div>
     {% for order in orders.orders %}
     <div>
