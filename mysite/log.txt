@@ -3853,3 +3853,7 @@ KeyError: 'USER'
 2024-07-29 09:09:54,761 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/urls.py changed, reloading.
 2024-07-29 09:09:55,148 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
 2024-07-29 09:16:45,301 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-31 13:47:05,909 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-31 13:55:48,659 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-31 13:55:53,657 [INFO] shopapp.views: Rendering shop index
+2024-07-31 14:02:46,944 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
