@@ -3853,3 +3853,209 @@ KeyError: 'USER'
 2024-07-29 09:09:54,761 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/shopapp/urls.py changed, reloading.
 2024-07-29 09:09:55,148 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
 2024-07-29 09:16:45,301 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-31 13:47:05,909 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-31 13:55:48,659 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-31 13:55:53,657 [INFO] shopapp.views: Rendering shop index
+2024-07-31 14:02:46,944 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-06 09:35:18,981 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-06 09:37:31,790 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-06 09:37:37,449 [INFO] django.utils.autoreload: /home/david/PycharmProjects/python_django/mysite/mysite/settings.py changed, reloading.
+2024-08-06 09:37:38,017 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-06 09:39:43,567 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-06 11:49:31,037 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-06 11:49:58,097 [INFO] shopapp.views: Rendering shop index
+2024-08-06 11:49:58,974 [ERROR] django.request: Internal Server Error: /en/shop/
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 187, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/middleware.py", line 171, in __call__
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/debug_toolbar/middleware.py", line 92, in __call__
+    panel.generate_stats(request, response)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/debug_toolbar/panels/request.py", line 64, in generate_stats
+    (k, request.session.get(k)) for k in sorted(request.session.keys())
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 123, in keys
+    return self._session.keys()
+           ^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 192, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 42, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/__init__.py", line 650, in execute
+    result = real_execute(self, sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2024-08-06 11:50:00,057 [ERROR] django.request: Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 187, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/middleware.py", line 171, in __call__
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/debug_toolbar/middleware.py", line 92, in __call__
+    panel.generate_stats(request, response)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/debug_toolbar/panels/request.py", line 64, in generate_stats
+    (k, request.session.get(k)) for k in sorted(request.session.keys())
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 123, in keys
+    return self._session.keys()
+           ^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 192, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 42, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/utils.py", line 1713, in runner
+    return sentry_patched_function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/sentry_sdk/integrations/django/__init__.py", line 650, in execute
+    result = real_execute(self, sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/david/PycharmProjects/pythonProject/.venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2024-08-06 11:57:47,288 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-06 11:59:46,052 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-06 11:59:51,617 [INFO] shopapp.views: Rendering shop index
+2024-08-06 11:59:52,024 [WARNING] django.request: Not Found: /favicon.ico
+2024-08-06 12:04:39,752 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-06 12:04:49,816 [INFO] shopapp.views: Rendering shop index
+2024-08-06 12:04:52,598 [INFO] shopapp.views: Rendering shop index
+2024-08-06 12:07:18,724 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-06 12:10:33,769 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-06 12:10:50,522 [WARNING] django.request: Not Found: /en/accounts/l
+2024-08-06 12:10:53,361 [WARNING] django.request: Not Found: /en/accounts/
+2024-08-06 12:11:23,319 [WARNING] django.request: Not Found: /en/accounts/profile-update/1/
+2024-08-06 12:11:40,929 [WARNING] django.request: Not Found: /en/accounts/profile-update/1/
+2024-08-06 12:11:45,974 [WARNING] django.request: Not Found: /en/accounts/profile-update/2/
+2024-08-06 12:11:49,298 [WARNING] django.request: Not Found: /en/accounts/profile-update/1/
+2024-08-06 12:13:28,119 [WARNING] django.request: Not Found: /en/accounts/profile-update/2/
+2024-08-06 12:13:30,040 [WARNING] django.request: Not Found: /en/accounts/profile-update/2/
+2024-08-06 12:14:19,891 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-06 12:14:28,238 [INFO] shopapp.views: Rendering shop index
+2024-08-06 12:14:48,324 [INFO] shopapp.views: Rendering shop index
+2024-08-06 12:16:29,349 [INFO] shopapp.views: Rendering shop index
+2024-08-07 09:35:26,798 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-08-07 09:36:04,600 [INFO] shopapp.views: Rendering shop index
